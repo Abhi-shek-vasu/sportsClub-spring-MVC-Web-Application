@@ -1,0 +1,19 @@
+div.package
+{
+background-color:white;
+border: solid;
+display: table-cell;
+height: 300px;
+width: 300px;
+}
+packleb.label
+              {
+                  height: 40px;
+                  margin-left: 38px;
+                  display: block;
+              }
+              packsp.span
+              {
+                  display: inline-block;
+                  width:170px;
+              }

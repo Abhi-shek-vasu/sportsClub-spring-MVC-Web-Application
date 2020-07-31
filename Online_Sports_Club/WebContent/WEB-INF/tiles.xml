@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">        
+
+<tiles-definitions>
+	<definition name="baseTemplate" template="/tiles/template.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header" value="/tiles/header.jsp" />
+		<put-attribute name="mainevents" value="/tiles/mainevents.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/tiles/footer.jsp" />
+	</definition>
+	<definition name="t_addCoaches" extends="baseTemplate">
+		<put-attribute name="title" value="AddCoaches" />
+		<put-attribute name="body" value="/addnewcoaches.jsp" />
+	</definition>
+	<definition name="t_events" extends="baseTemplate">
+		<put-attribute name="title" value="All Events" />
+		<put-attribute name="body" value="/events.jsp" />
+	</definition>
+	<definition name="t_addEvent" extends="baseTemplate">
+		<put-attribute name="title" value="Add Events" />
+		<put-attribute name="body" value="/addEvent.jsp" />
+	</definition>
+	<definition name="t_index" extends="baseTemplate">
+		<put-attribute name="title" value="index" />
+		<put-attribute name="body" value="/index.jsp" />
+	</definition>
+	<definition name="t_default" extends="baseTemplate">
+		<put-attribute name="title" value="Good Bye" />
+		<put-attribute name="body" value="/default.jsp" />
+	</definition>
+	<definition name="t_login" extends="baseTemplate">
+		<put-attribute name="title" value="login" />
+		<put-attribute name="body" value="/login.jsp" />
+	</definition>
+	<definition name="t_register" extends="baseTemplate">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/register.jsp" />
+	</definition>
+	<definition name="t_register" extends="baseTemplate">
+		<put-attribute name="title" value="Register" />
+		<put-attribute name="body" value="/register.jsp" />
+	</definition>
+	<definition name="hello" extends="baseTemplate" >  
+        <put-attribute name="title" value="Default Page" />  
+        <put-attribute name="body" value="/hello.jsp" />  
+    </definition>
+    <definition name="t_adminpanel" extends="baseTemplate" >  
+        <put-attribute name="title" value="Admin Panel" />  
+        <put-attribute name="body" value="/adminpanel.jsp" />  
+    </definition>  
+      <definition name="t_allsports" extends="baseTemplate" >  
+        <put-attribute name="title" value="All Sports" />  
+        <put-attribute name="body" value="/allsports.jsp" />  
+    </definition> 
+     
+      <definition name="t_sportDetails" extends="baseTemplate" >  
+        <put-attribute name="title" value="Sport Details" />  
+        <put-attribute name="body" value="/sportdetails.jsp" />  
+    </definition>   
+      <definition name="t_manageevents" extends="baseTemplate" >  
+        <put-attribute name="title" value="Manage Events" />  
+        <put-attribute name="body" value="/manageevents.jsp" />  
+    </definition>
+      <definition name="t_editevent" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Events" />  
+        <put-attribute name="body" value="/editevent.jsp" />  
+    </definition>   
+      <definition name="t_subscriptions" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Events" />  
+        <put-attribute name="body" value="/subscriptions.jsp" />  
+    </definition> 
+     <definition name="t_getSlots" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Events" />  
+        <put-attribute name="body" value="/getSlots.jsp" />  
+    </definition>
+     <definition name="t_fillpayment" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Events" />  
+        <put-attribute name="body" value="/payment.jsp" />  
+    </definition>  
+    <definition name="t_endingsubscriptions" extends="baseTemplate" >  
+        <put-attribute name="title" value="Send Notification" />  
+        <put-attribute name="body" value="/sendNotification.jsp" />  
+    </definition>  
+     <definition name="t_myprofile" extends="baseTemplate" >  
+        <put-attribute name="title" value="My Profile" />  
+        <put-attribute name="body" value="/myprofile.jsp" />  
+    </definition>  
+     <definition name="t_enquiry" extends="baseTemplate" >  
+        <put-attribute name="title" value="Enquiry" />  
+        <put-attribute name="body" value="/enquiry.jsp" />  
+    </definition>  
+      <definition name="t_postenqanswers" extends="baseTemplate" >  
+        <put-attribute name="title" value="Questions" />  
+        <put-attribute name="body" value="/getallquestions.jsp" />  
+    </definition>
+     <definition name="t_showenteranswerform" extends="baseTemplate" >  
+        <put-attribute name="title" value="Questions" />  
+        <put-attribute name="body" value="/enteranswer.jsp" />  
+    </definition>
+     <definition name="t_getanswers" extends="baseTemplate" >  
+        <put-attribute name="title" value="Questions" />  
+        <put-attribute name="body" value="/getanswers.jsp" />  
+    </definition>
+     <definition name="t_addSlotforSport" extends="baseTemplate" >  
+        <put-attribute name="title" value="Add Slots" />  
+        <put-attribute name="body" value="/Addpackage.jsp" />  
+    </definition>
+    <definition name="t_selectsport" extends="baseTemplate" >  
+        <put-attribute name="title" value="Select Sport" />  
+        <put-attribute name="body" value="/selectsport.jsp" />  
+    </definition>
+     <definition name="t_editsport" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Sport" />  
+        <put-attribute name="body" value="/editsport.jsp" />  
+    </definition>
+     <definition name="t_editlocation" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Sport" />  
+        <put-attribute name="body" value="/editlocation.jsp" />  
+    </definition>
+     <definition name="t_editCharges" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Charges" />  
+        <put-attribute name="body" value="/editCharges.jsp" />  
+    </definition>
+    <definition name="t_editCharge" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Charge" />  
+        <put-attribute name="body" value="/editcharge.jsp" />  
+    </definition>
+     <definition name="t_editSlot" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Slot" />  
+        <put-attribute name="body" value="/editslot.jsp" />  
+    </definition>
+    <definition name="t_addNewSlot" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Slot" />  
+        <put-attribute name="body" value="/addnewslot.jsp" />  
+    </definition>
+    <definition name="t_eventDetails" extends="baseTemplate" >  
+        <put-attribute name="title" value="Edit Slot" />  
+        <put-attribute name="body" value="/eventdetails.jsp" />  
+    </definition>
+    <definition name="t_showRegForm" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/eventRegistration.jsp" />  
+    </definition>
+    <definition name="t_eventpaymant" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/eventpayment.jsp" />  
+    </definition>
+    <definition name="t_showeventAttenders" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/eventAttenders.jsp" />  
+    </definition>
+    <definition name="t_showaddnewsport" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/addnewsport.jsp" />  
+    </definition>
+     <definition name="t_addChargesForSport" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/AddChargesForSport.jsp" />  
+    </definition>
+         <definition name="t_showaddLocation" extends="baseTemplate" >  
+        <put-attribute name="title" value="Event Registration" />  
+        <put-attribute name="body" value="/ShowAddLocation.jsp" />  
+    </definition>
+    
+    </tiles-definitions>

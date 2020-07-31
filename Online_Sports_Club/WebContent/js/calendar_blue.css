@@ -1,0 +1,229 @@
+/* Calendar Main Div Style */
+.mainDiv_
+{
+	position: absolute;
+	z-index: 500;
+}
+
+/* Calendar Main Table Style */
+.calendarTable_
+{
+	width: 148px;
+	background-color: #5BA6E5;
+}
+
+/* Calendar Title Row Style */
+.titleRow_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 10px; 
+	color: #083459; 
+	filter: progID:DXImageTransform.Microsoft.Gradient(gradientType='0', startcolorStr='#5BA6E5', endcolorStr='#A3D5FF');
+	background-color: #5CA8E7;
+	height: 16px;
+}
+
+/* Calendar Year Row Style */
+.yearHeadingRow_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 10px; 
+	color: #083459; 
+	filter: progID:DXImageTransform.Microsoft.Gradient(gradientType='0', startcolorStr='#B7DFFF', endcolorStr='#ECF9FF');
+	background-color: #B7DFFF;
+	height: 14px;
+}
+
+/* Calendar Month Row Style */
+.monthHeadingRow_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 10px; 
+	color: #083459; 
+	background-color: #F2FAFF;
+}
+
+/* Calendar Week Days Cells Style */
+.daysHeadingCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	width: 20px; 
+	height: 14px;	
+	color: #000000; 
+	background-color: #E0F0FD;
+}
+
+/* Calendar Blank Cells Style */
+.blankCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	width: 20px;
+	height: 14px;		
+	color: #000000; 
+	background-color: #F2FAFF;
+}
+
+/* Calendar Disabled Cells Style for Expiry */
+.disabledCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	width: 20px;
+	height: 14px;		
+	color: #85C2E7; 
+	background-color: #F2FAFF;
+}
+
+/* Calendar Normal Cells Style */
+.normalDateCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px;
+	text-align: center;
+	width: 20px; 
+	height: 14px;
+	color: #000000; 
+	background-color: #FFFFFF;
+}
+
+/* Calendar Current Date Cell Style */
+.todayDateCell_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 9px; 
+	text-align: center;
+	width: 20px; 
+	height: 14px;
+	color: #000000; 
+	background-color: #FFFFE0;
+}
+
+/* Calendar Sunday Cells Style */
+.sundayDateCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	text-align: center;
+	width: 20px; 
+	height: 14px;
+	color: #000000; 
+	background-color: #E0F0FD;
+}
+
+/* Date Cells Style On Mouse Over */
+.dateOver_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 9px; 
+	text-align: center;
+	width: 20px; 
+	height: 14px;
+	cursor: pointer;
+	color: #000000; 
+	background-color: #FFFFE0;
+}
+
+/* Calendar Months Cells Style */
+.monthCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	text-align: center;
+	width: 48px; 
+	height: 16px;
+	color: #000000; 
+	background-color: #FFFFFF;
+}
+
+/* Months Cells Style On Mouse Over */
+.monthOver_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 9px; 
+	text-align: center;
+	width: 48px; 
+	height: 16px;
+	cursor: pointer;
+	color: #000000; 
+	background-color: #FFFFE0;
+}
+
+/* Calendar Years Cells Style */
+.yearCell_
+{
+	font-family: verdana; 
+	font-weight: normal; 
+	font-size: 9px; 
+	text-align: center;
+	width: 48px; 
+	height: 16px;
+	color: #000000; 
+	background-color: #FFFFFF;
+}
+
+/* Years Cells Style On Mouse Over */
+.yearOver_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 10px; 
+	text-align: center;
+	width: 48px; 
+	height: 16px;
+	cursor: pointer;
+	color: #000000; 
+	background-color: #FFFFE0;
+}
+
+/* Calendar Links Style */
+A.linksCalendar_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 9px; 
+	color: #083459; 
+	text-decoration: none;
+}
+
+A.linksCalendar_:hover
+{
+	color: #FF0000;
+}
+
+/* Calendar Close & Clear Button Style */
+A.linksButton_
+{
+	font-family: verdana; 
+	font-weight: bold; 
+	font-size: 9px; 
+	color: #083459; 
+	text-decoration: none;
+	text-align: center;
+	border: #5BA6E5 1px solid;
+	background-color: #F2FAFF;
+	padding-left: 2px;
+	display: block;
+	width: 14px;
+	height: 12px;
+}
+
+A.linksButton_:hover
+{
+	color: #FF0000;
+	background-color: #FBFBD7;
+}
+

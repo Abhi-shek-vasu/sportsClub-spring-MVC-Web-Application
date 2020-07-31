@@ -1,0 +1,54 @@
+       
+             
+               paylabel.label
+              {
+                  display: block;
+                  height: 40px;
+                  margin-left: 38px;
+              }
+              payspan.span
+              {
+                  display: inline-block;
+                  width:170px;
+              }
+              div.registration_form > label > button
+              {
+                  background: #99ff00;
+                  height: 35px;
+                  width: 120px;
+                  border-radius: 10px;
+                  font-weight: bold;
+              }
+               div.registration_form > label > input
+              {
+                  
+              } 
+               div.registration_form
+               {
+                   
+                   font-size:17px;
+               
+                   font-weight: bold;
+                   width: 400px;
+                   padding: 30px;
+                   border: solid;
+                   position:relative;
+                   margin:auto;
+                   border-radius:20px;
+               }
+               a.adminLinkbtn {
+    border: 2px solid #006600;
+    border-radius: 5px;
+    background-color: #009900;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    margin : 20px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+}
+a.adminLinkbtn:hover {
+    border: 2px solid #009900;
+    background-color: #00cc00;
+}
+               
